@@ -8,7 +8,7 @@ La aplicación está desarrollada con React para el frontend y utiliza una API e
 ## Requisitos del sistema
 
 - Yarn
-    -npm install -g yarn
+    - npm install -g yarn
 
 
 ### Configuración
