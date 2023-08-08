@@ -8,6 +8,7 @@ La aplicación está desarrollada con React para el frontend y utiliza una API e
 ## Requisitos del sistema
 
 - Yarn
+    -npm install -g yarn
 
 
 ### Configuración
@@ -16,12 +17,12 @@ La aplicación está desarrollada con React para el frontend y utiliza una API e
 2. Instala las dependecias del FrontEnd.
 
     - cd api
-    - yarn
+    - yarn install
 
 3. Instala las dependecias del BackEnd.
 
     - cd api
-    - yarn
+    - yarn install
 
 4. Copia el archivo `.env.example`, cambia el nombre a `.env`  y actualiza las credenciales de la base de datos de acuerdo a tu configuración de MySQL.
 
