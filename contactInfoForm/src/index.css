@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.border-pink {
+  border: 3px solid #ff7eb9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bg-pink {
+  background-color: #ff7eb9;
+  border-radius: 10px;
+  color: black;
+}
+
+.img-profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.chat-bubble-left {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.chat-bubble-right {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 105px;
+  margin-bottom: 20px;
+  align-self: flex-end;
+}
+
+.chat-bubble-center {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-iniciar {
+  background-color: #d30361;
+  border-color: #fafafa;
+  color: #fafafa;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 60px;
+  font-size: 24px;
+}
+
+.form-header {
+  position: relative;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.red-line {
+  width: 100%;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: redLineAnimation 300s linear;
+}
+
+@keyframes redLineAnimation {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
